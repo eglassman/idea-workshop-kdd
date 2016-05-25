@@ -1,0 +1,66 @@
+Paper titles,,Deep Learning from Temporal Coherence in Video,"This work proposes a learning method for deep architectures that takes advantage of sequential data, in particular from the temporal coherence that naturally exists in unlabeled video recordings. That is, two successive frames are likely to contain the same object or objects. This coherence is used as a supervisory signal over the unlabeled data, and is used to improve the performance on a supervised task of interest. We demonstrate the effectiveness of this method on some pose invariant object and face recognition tasks""Learning hierarchical invariant spatio-temporal features for action recognition
+with independent subspace analysis","Previous work on action recognition has focused on adapting hand-designed local features, such as SIFT or HOG, from static images to the video domain. In this paper, we propose using unsupervised feature learning as a way to learn features directly from video data. More specifically, we present an extension of the Independent Subspace Analysis algorithm to learn invariant spatio-temporal features from unlabeled video data. We discovered that, despite its simplicity, this method performs surprisingly well when combined with deep learning techniques such as stacking and convolution to learn hierarchical representations. By replacing hand-designed features with our learned features, we achieve classification results superior to all previous published results on the Hollywood2, UCF, KTH and YouTube action recognition datasets. On the challenging Hollywood2 and YouTube action datasets we obtain 53.3% and 75.8% respectively, which are approximately 5% better than the current best published results. Further benefits of this method, such as the ease of training and the efficiency of training and prediction, will also be discussed. You can download our code and learned spatio-temporal features here: http://ai.stanford.edu/âˆ_wzou/"Deep Learning of Invariant Spatio-Temporal Features from Video,"We present a novel hierarchical, distributed model for unsupervised learning of
+invariant spatio-temporal features from video. Our approach builds on previous
+deep learning methods and uses the convolutional Restricted Boltzmann machine
+(CRBM) as a basic processing unit. Our model, called the Space-Time Deep Belief
+Network (ST-DBN), alternates the aggregation of spatial and temporal information
+so that higher layers capture longer range statistical dependencies in both space
+and time. Our experiments show that the ST-DBN has superior performance on
+discriminative and generative tasks including action recognition and video denoising
+when compared to convolutional deep belief networks (CDBNs) applied
+on a per-frame basis. Simultaneously, the ST-DBN has superior feature invariance
+properties compared to CDBNs and can integrate information from both space and
+time to fill in missing data in video.""Sequential Deep Learning
+for Human Action Recognition","We propose in this paper a fully automated deep model,
+which learns to classify human actions without using any prior knowledge.
+The first step of our scheme, based on the extension of Convolutional
+Neural Networks to 3D, automatically learns spatio-temporal
+features. A Recurrent Neural Network is then trained to classify each
+sequence considering the temporal evolution of the learned features for
+each timestep. Experimental results on the KTH dataset show that the
+proposed approach outperforms existing deep models, and gives comparable
+results with the best related works""Convolutional Learning
+of Spatio-temporal Features","We address the problem of learning good features for understanding
+video data. We introduce a model that learns latent representations
+of image sequences from pairs of successive images. The convolutional
+architecture of our model allows it to scale to realistic image sizes
+whilst using a compact parametrization. In experiments on the NORB
+dataset, we show our model extracts latent â€œflow fieldsâ€ù which correspond
+to the transformation between the pair of input frames. We also use our
+model to extract low-level motion features in a multi-stage architecture
+for action recognition, demonstrating competitive performance on both
+the KTH and Hollywood2 datasets."Hierarchical Deep Reinforcement Learning: Integrating Temporal Abstraction and Intrinsic Motivation,"Learning goal-directed behavior in environments with sparse feedback is
+a major challenge for reinforcement learning algorithms. The primary
+difficulty arises due to insufficient exploration, resulting in an agent being
+unable to learn robust value functions. Intrinsically motivated agents can
+explore new behavior for its own sake rather than to directly solve problems.
+Such intrinsic behaviors could eventually help the agent solve tasks posed by
+the environment. We present hierarchical-DQN (h-DQN), a framework to
+integrate hierarchical value functions, operating at different temporal scales,
+with intrinsically motivated deep reinforcement learning. A top-level value
+function learns a policy over intrinsic goals, and a lower-level function learns
+a policy over atomic actions to satisfy the given goals. h-DQN allows for
+flexible goal specifications, such as functions over entities and relations. This
+provides an efficient space for exploration in complicated environments. We
+demonstrate the strength of our approach on two problems with very sparse,
+delayed feedback: (1) a complex discrete MDP with stochastic transitions,
+and (2) the classic ATARI game â€˜Montezumaâ€™s Revengeâ€™."Factored Temporal Sigmoid Belief Networks for Sequence Learning,"Deep conditional generative models are developed
+to simultaneously learn the temporal dependencies
+of multiple sequences. The model is designed
+by introducing a three-way weight tensor
+to capture the multiplicative interactions between
+side information and sequences. The proposed
+model builds on the Temporal Sigmoid Belief
+Network (TSBN), a sequential stack of Sigmoid
+Belief Networks (SBNs). The transition matrices
+are further factored to reduce the number of parameters
+and improve generalization. When side
+information is not available, a general framework
+for semi-supervised learning based on the proposed
+model is constituted, allowing robust sequence
+classification. Experimental results show
+that the proposed approach achieves state-of-theart
+predictive and classification performance on
+sequential data, and has the capacity to synthesize
+sequences, with controlled style transitioning
+and blending."
